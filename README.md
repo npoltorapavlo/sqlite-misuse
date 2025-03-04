@@ -1,1 +1,18 @@
-# sqlite_misuse
+# sqlite-tests
+
+```
+ADb.WorksIfOpen
+ADb.WorksIfOpenEmpty
+ADb.ReturnsNotadb26IfOpenCorrupt
+ADb.StatementReturnsMisuse21IfOpenCorrupt
+ADbWithEmptyJournal.ReturnsCantopen14orError1orOkIfOpen
+ADbWithEmptyJournal.IsEmptyIfOpen
+ADbWithEmptyJournal.ReturnsCantopen14orError1orOkIfOpenEmpty
+AnExistingDb.ReturnsCorrupt11IfOpenPartiallyCorrupt
+AnExistingDb.ReturnsIoerr10IfOpenWithEmptyJournal
+ADbInRuntime.ReturnsNotadb26IfCorrupt
+ADbInRuntime.ReturnsReadonly8orConstraint19orOkIfDeleted
+ADbInRuntime.WorksIfEmptied
+ADbInRuntime.ReturnsCorrupt11IfPartiallyCorrupt
+ADbInRuntime.ReturnsIoerr10WithEmptyJournal
+```
